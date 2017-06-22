@@ -12,6 +12,6 @@ import java.util.concurrent.atomic.AtomicLong;
 public interface SpacView {
     void activateView();
     void pauseView();
-    void setRotaion(float rotRate);
+    void setRotation(float rotRate);
 
 }
