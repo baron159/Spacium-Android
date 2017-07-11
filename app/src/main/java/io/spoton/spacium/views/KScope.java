@@ -112,7 +112,7 @@ public class KScope extends SurfaceView implements Runnable, SpacView {
 
     @Override
     public void setRotation(float rotRate) {
-        this.rotationRate.set((long)rotRate*3);
+        this.rotationRate.set((long)rotRate*7);
     }
 
     @Override
